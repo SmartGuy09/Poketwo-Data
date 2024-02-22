@@ -7,12 +7,12 @@ _Note : I have provided the `data` folder too so that if any of you just wants t
 # FAQs
 ## What DID you do?
 Its simple, I found out that every pokemon image present in this bot is hosted ON ITS OWN CDN `https://cdn.poketwo.net/images/N.png`, then I just played with some numbers and found out that the range on **N** is [1,1010].
-Wrote a simple python script `pokemon.py` and downloaded the images by just adding `1` in at the place of `N` in the url {*i am not good at explaining stuff*}
-
+Wrote a simple python script `pokemon.py` and downloaded the images by just adding `1` in at the place of `N` in the url **{*i am not good at explaining stuff*}
+**
 ## *huh?* You downloaded THE IMAGES with just numbers (no names)?
 Well Initially, Yes! I just downloaded all the `1010` images named as `pokemon_N.png` {*again N ranging [1,1010]*} and saved them in `Data/` directory, 
 BUT🍑 I did't stop there I searched a bit and found out about an API **THE POKEAPI** `https://pokeapi.co/api/v2/pokemon/`
-I am guessing that the bot uses it too coz the numbers were  BUT that's not important, whats important it I made another script 🎉🎉 `rename.py` (_unique name ik_) to rename all of them.
+I am guessing that the bot uses it too coz the numbers were assigned according to the api's index BUT that's not important, what's important is that I made another script 🎉🎉 `rename.py` (_unique name ik_) to rename all of them.
 
 ## What does this `rename.py` do?
 It basically fetches the respective number of pokemon with the help of **THE POKEAPI** and renames the image files (having that number in its name in the `Data/` directory) to the actual Name of the pokemon,and that's it
