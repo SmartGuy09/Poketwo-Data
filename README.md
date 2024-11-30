@@ -3,7 +3,7 @@
 
 But since I have no knowledge of pokemon it just made it more boring. SO I made it interesting for myself 😎
 
-_Note : I have provided the `data` folder too so that if any of you just wants the images you can access then **without running the script**_
+_Note : I have provided the `data` folder too so that if any of you just want the images you can access them **without running the script**_
 # FAQs
 ## What DID you do?
 Its simple, I found out that every pokemon image present in this bot is hosted ON ITS OWN CDN `https://cdn.poketwo.net/images/N.png`, then I just played with some numbers and found out that the range on **N** is [1,1010].
